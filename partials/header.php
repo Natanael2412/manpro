@@ -7,7 +7,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $title; ?> - [Nama Prodi Anda]</title>
+    <title><?php echo $title; ?> - SIEGA</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 font-sans">
@@ -15,7 +15,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <nav class="bg-blue-800 text-white shadow-md">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             
-            <a href="index.php" class="text-xl font-bold">[Nama Prodi Anda]</a>
+            <a href="index.php" class="text-xl font-bold">SIEGA</a>
 
             <div class="hidden md:flex items-center space-x-6">
                 <a href="index.php" class="<?php echo ($current_page == 'index.php') ? 'border-b-2' : ''; ?> hover:text-blue-200">Home</a>

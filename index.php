@@ -4,8 +4,8 @@ include 'partials/header.php';
 ?>
 
 <div class="bg-blue-600 text-white p-12 rounded-lg shadow-lg text-center">
-    <h1 class="text-4xl font-bold mb-4">Selamat Datang di [Nama Prodi Anda]</h1>
-    <p class="text-lg">Membentuk Profesional [Bidang Studi Anda, misal: Teknologi Informasi] yang Siap Bersaing Global.</p>
+    <h1 class="text-4xl font-bold mb-4">Selamat Datang di SIEGA</h1>
+    <p class="text-lg">Membentuk Profesional yang Siap Bersaing Global.</p>
     <a href="link-pendaftaran.php" class="mt-6 inline-block bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded hover:bg-yellow-300 text-lg">Daftar Sekarang!</a>
 </div>
 
