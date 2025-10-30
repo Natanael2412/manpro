@@ -35,17 +35,17 @@ include 'partials/header.php';
         <div class="space-y-4 text-gray-700">
             <p>
                 <strong>Alamat:</strong><br>
-                [Nama Fakultas Anda]<br>
-                [Nama Universitas Anda]<br>
-                [Jalan, Kota, Kode Pos]
+                SIEGA, FIKOM<br>
+                SOEGIJAPRANATA CATHOLIC UNIVERSITY<br>
+                Jl. Tinjomoyo Semayang, 08....
             </p>
             <p>
                 <strong>Email:</strong><br>
-                [email.prodi@universitas.ac.id]
+                siega@unika.ac.id
             </p>
             <p>
                 <strong>Telepon:</strong><br>
-                [Nomor Telepon Prodi/Fakultas]
+                087779668055
             </p>
         </div>
     </div>

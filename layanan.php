@@ -11,17 +11,18 @@ include 'partials/header.php';
         <div class="border p-6 rounded-lg shadow-sm">
             <h3 class="text-2xl font-semibold text-blue-800 mb-3">Bidang Peminatan / Konsentrasi</h3>
             <ul class="list-disc list-inside text-gray-700">
-                <li>[Peminatan 1, misal: Software Engineering]</li>
-                <li>[Peminatan 2, misal: Data Science]</li>
-                <li>[Peminatan 3, misal: Jaringan Komputer]</li>
+                <li>Sistem Informasi</li>
+                <li>E-Commerce</li>
+                <li>Game Tech</li>
+                <li>Akuntansi + SI</li>
             </ul>
         </div>
         <div class="border p-6 rounded-lg shadow-sm">
             <h3 class="text-2xl font-semibold text-blue-800 mb-3">Mata Kuliah Unggulan</h3>
             <ul class="list-disc list-inside text-gray-700">
                 <li>Pemrograman Berbasis Objek</li>
-                <li>Kecerdasan Buatan (AI)</li>
-                <li>Manajemen Proyek TI</li>
+                <li>Sains Data</li>
+                <li>Sistem Basis Data</li>
                 <li>Keamanan Informasi</li>
             </ul>
         </div>
