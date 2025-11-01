@@ -23,7 +23,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
 
             <a href="index.php" class="flex items-center space-x-3">
-                <img class="h-10 w-auto" src="img/logo-siega.png" alt="Logo [Nama Prodi Anda]">
+                <img class="h-10 w-auto" src="img/logosieganew-250x141.png" alt="Logo [Nama Prodi Anda]">
                 <span class="text-xl font-bold text-white">SIEGA</span>
             </a>
 
@@ -39,6 +39,15 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     class="<?php echo ($current_page == 'kontak.php') ? 'border-b-2' : ''; ?> hover:text-blue-200">Kontak</a>
 
                 <a href="<?php echo $link_wa; ?>" target="_blank">Pendaftaran</a>
+
+                <form action="search.php" method="GET" class="flex items-center space-x-2">
+                    <input type="text" name="q" placeholder="Cari..." 
+                        class="px-3 py-1 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                    <button type="submit" class="bg-blue-600 px-3 py-1 rounded-lg hover:bg-blue-700">
+                        🔍
+                    </button>
+                </form>
+                
             </div>
 
             <button id="mobile-menu-button" class="md:hidden flex items-center">
